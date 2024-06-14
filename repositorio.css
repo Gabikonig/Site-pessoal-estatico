@@ -1,0 +1,99 @@
+
+.repositorios{
+    margin: 5px;
+    margin-left: 10px;
+ }
+ .repositorios>h5{
+     padding: 10px;
+     margin-top: 20px;
+ }
+ .texto>.tit{
+     padding: 10px;
+ }
+ .texto>p{
+    margin-right: 20px;
+ }
+ .repositorios>h4{
+     padding: 10px;
+ }
+ .linha{
+    width: 100%;
+ }
+ .texto>p{
+   padding-right: 20px;
+   padding-left: 20px;    
+ }
+ .texto>h5{
+    font-size: large;
+    padding: 10px;
+ }
+ .btn{
+    margin-left: 15px;
+ }
+ 
+.icone1{
+    float: right;    
+    margin-right: 200px;
+    display: inline-flex;    
+}
+.icone2{
+    float: right;
+    margin-right: 200px;
+    display: inline-flex;  
+}
+footer{
+    width: 100%;
+    background-color: aliceblue;
+    float: right;
+    margin-top: 50px;  
+}
+.rodape{
+    margin-top:15px;
+    margin-left: 10px;
+    float: left;
+    align-items: center;
+    align-content: center;
+   
+    margin-right: auto ;
+
+}
+
+@media screen and (max-width:480px){
+    .icone1{
+        margin-right: 40px;
+    }
+    .icone2{
+        margin-right: 40px;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+    .rodape{
+        margin: auto;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .icone1{
+        margin-right: 40px;
+    }
+    .icone2{
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width:1024) {
+    .rodape{
+        margin: auto;
+        float: left;        
+    }    
+}
+@media screen and (max-width: 1400px) 
+{
+    .rodape{
+        text-align: auto;
+        float: left;
+    }
+}
+
+
